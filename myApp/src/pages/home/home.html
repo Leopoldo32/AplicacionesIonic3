@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Pagina de Inicio
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <input [(ngModel)]="usuario"> <br>
+  {{usuario}}
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
+
+  <input type="submit" value="Submit">
+  <ion-input [(ngModel)]="name"></ion-input>
+  <button (click) = "goToPagina()">Ingresar Contraseña</button>
+  <button (click) = "goToPagina()">Cambiar Contraseña</button>
+  
+</ion-content>
